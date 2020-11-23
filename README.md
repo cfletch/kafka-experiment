@@ -1,6 +1,7 @@
 ### Kafka Setup
 
 1. Create docker-compose configuration `vim docker-compose.yml`
+    > Credit Scenario 4 in https://www.confluent.io/blog/kafka-client-cannot-connect-to-broker-on-aws-on-docker-etc/
     ```yaml
     ---
     version: '3.5'
