@@ -1,0 +1,19 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:19092
+
+app:
+  topic:
+    trades: trades
+
+#spring.cloud.stream.bindings:
+#  input:
+#    destination: trades
+#  output:
+#    destination: output
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: ERROR
+    com.kafkatest: DEBUG
